@@ -1,0 +1,2 @@
+module MuteNotificationHelper
+end
