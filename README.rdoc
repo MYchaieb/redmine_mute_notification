@@ -5,7 +5,7 @@ It allow only who have permission.
 
 == Installation 
 
-cd {redmine_root}
+cd {redmine_root}/plugins
 
 git clone https://github.com/MYchaieb/redmine_mute_notification.git 
 
