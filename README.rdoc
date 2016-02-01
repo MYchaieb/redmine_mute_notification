@@ -1,3 +1,14 @@
-= mute_notification
+= Redmine mute notification plugin
 
-Description goes here
+This plugin allow gives the possibility to do not send mail notification after writting an issue comment. 
+It allow only who have permission.
+
+== Installation 
+
+cd {redmine_root}
+
+git clone https://github.com/MYchaieb/redmine_mute_notification.git 
+
+rake redmine:plugins:migrate RAILS_ENV=production 
+
+Restart your server.
